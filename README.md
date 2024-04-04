@@ -12,20 +12,26 @@ deve ter o texto RESULTADO escrito em negrito.
 
 ## Como funciona?
 
-•  Uma jogada começa com o click no botão jogar. 
+•  Uma jogada começa com o click no botão jogar.
+
 •  O click mostra as 9 imagens em FIGURAS, define TIMER para 00:30, define RESULTADO para EM JOGO, escolhe
 aleatoriamente uma figura premiada, e começa a contagem regressiva. 
+
 •  A cada segundo, TIMER deve ser atualizado.
+
 •  O usuário deve clicar em uma das figuras do quadro FIGURAS em até 30s.
 
 ## O que acontece no jogo?
 
 • Se ele clicou na figura certa, este deve se tornar um quadrado verde, e as demais
 quadrados vermelhos. O RESULTADO é igual a 1.000.000.
+
 • Se ele clicou na figura errada, este deve se tornar um quadrado vermelho, e as
 demais quadrados amarelos. RESULTADO é igual a 0.000.000.
+
 • Se ele não clicou em nada em até 30s, todas as figuras devem ser tornar
 quadrados vermelhos. Resultado é igual a TIMEOUT.
+
 • Nos três casos, HISTÓRICO é acrescido de uma nova linha com o
 resultado da jogada: GANHOU, PERDEU ou TIMEOUT.
 
